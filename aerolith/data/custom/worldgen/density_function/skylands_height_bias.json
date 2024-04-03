@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_y": 320,
+      "to_y": 75,
+      "from_value": -2,
+      "to_value": 0
+    },
+    "argument2": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_y": -100,
+      "to_y": 10,
+      "from_value": -1.6,
+      "to_value": 0
+    }
+  },
+  "min": -1,
+  "max": 0
+}
