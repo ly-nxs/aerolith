@@ -1,0 +1,14 @@
+{
+  "feature": {
+    "type": "minecraft:glowstone_blob",
+    "config": {}
+  },
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "above_bottom": 400
+      }
+    }
+  ]
+}

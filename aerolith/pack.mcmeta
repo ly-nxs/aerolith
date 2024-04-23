@@ -2,9 +2,9 @@
   "pack": {
     "pack_format": 26,
     "supported_formats": [
-      18,
+      15,
       26
     ],
-    "description": "Terralith Skylands REQUIRES TERRALITH!!!"
+    "description": "Explore The Great Unknown, REQUIRES TERRALITH!!!"
   }
 }

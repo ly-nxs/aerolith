@@ -1,7 +1,7 @@
 {
   "sea_level": 32,
   "disable_mob_generation": false,
-  "aquifers_enabled": false,
+  "aquifers_enabled": true,
   "ore_veins_enabled": true,
   "legacy_random_source": false,
   "default_block": {
@@ -15,12 +15,12 @@
   },
   "noise": {
     "min_y": -64,
-    "height": 512,
+    "height": 576,
     "size_horizontal": 1,
     "size_vertical": 1
   },
   "noise_router": {
-    "barrier": 0,
+    "barrier": 1,
     "fluid_level_floodedness": 0,
     "fluid_level_spread": 0,
     "lava": 0,
@@ -54,25 +54,25 @@
         "from_y": -64,
         "to_y": 0,
         "from_value": 5,
-        "to_value": 0.5
+        "to_value": 0.6
       },
       "argument2": {
         "type": "minecraft:add",
-        "argument1": -0.7,
+        "argument1": -0.9,
         "argument2": {
           "type": "minecraft:add",
           "argument1": {
             "type": "minecraft:y_clamped_gradient",
-            "from_y": 484,
-            "to_y": -32,
-            "from_value": -0.3,
-            "to_value": -0.2
+            "from_y": 512,
+            "to_y": 420,
+            "from_value": -0.9,
+            "to_value": -0.1
           },
           "argument2": {
             "type": "minecraft:shifted_noise",
             "noise": "minecraft:gravel",
-            "xz_scale": 1.5,
-            "y_scale": 3,
+            "xz_scale": 1.4,
+            "y_scale": 2.5,
             "shift_x": 0,
             "shift_y": 0,
             "shift_z": 0
